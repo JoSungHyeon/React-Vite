@@ -16,8 +16,6 @@ const Register = () => {
     const countRef = useRef(0);
     const inputRef = useRef();
 
- 
-
     const onChange = (e) => {
         countRef.current++;
         console.log(countRef.current)
